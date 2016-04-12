@@ -1,0 +1,39 @@
+x = set()
+#we add to sets with the add() method
+x.add(5)
+#show
+print x
+x.add(6)
+print x
+x.add(8)
+print x
+#Notice how it won't place another 1 there.
+#'That's because a set is only concerned with unique elements!
+x.add(6)
+print x
+
+# Create a list with repeats
+l = [1,1,2,2,3,4,5,6,1,1]
+# Cast as set to get unique values
+print set(l)
+
+
+a = 8
+b = 8
+
+if a>b or a == b:
+ print "true"
+else:
+    print "false"
+
+
+a = True
+print a
+
+print 1 > 2
+print 2 < 9
+print 2 == 2
+
+a = 10
+b = None
+print a == b
